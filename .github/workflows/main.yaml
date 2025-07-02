@@ -2,7 +2,7 @@ on:
   push:
 jobs:
   Job1_main:
-    name: Job 1
+    name: Job_1_main
     runs-on: ubuntu-latest
     steps:
       - name: sleep
