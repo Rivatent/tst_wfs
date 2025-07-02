@@ -1,1 +1,9 @@
-
+on:
+  push:
+jobs:
+  Job1:
+    name: Job 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: sleep
+        run: echo "smtgh"
