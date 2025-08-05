@@ -1,0 +1,9 @@
+on:
+  push:
+jobs:
+  Job1_ololo:
+    name: Job_1_ololo
+    runs-on: ubuntu-latest
+    steps:
+      - name: sleep
+        run: echo "smtgh"
